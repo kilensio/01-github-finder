@@ -4,7 +4,6 @@ import Spinner from '../layout/Spinner'
 import GithubContext from '../../context/github/githubContext'
 // import PropTypes from 'prop-types'
 
-
 const Users = () => {
   const githubContext = useContext(GithubContext)
   const { loading, users } = githubContext
